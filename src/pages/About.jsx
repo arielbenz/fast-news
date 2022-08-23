@@ -1,9 +1,7 @@
-import React from 'react'
-
 const About = () => {
     return (
         <div>
-            Página sobre
+            About page
         </div>
     )
 }

@@ -9,10 +9,10 @@ const Layout = () => {
         <>
             <Header />
 
-            <div className="md:min-h-screen md:w-3/4 bg-slate-50 mx-auto text-center">
-
-                <Outlet />
-                
+            <div className="bg-slate-50">
+                <div className="md:min-h-screen md:w-3/4 mx-auto">
+                    <Outlet />
+                </div>
             </div>
 
             <Footer />
